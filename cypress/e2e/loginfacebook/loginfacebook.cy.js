@@ -1,3 +1,4 @@
+//test case for login functionality
 describe('Login Test', () => {
     it('should log in successfully', () => {
         //opene the website
