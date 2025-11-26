@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-11-25T17:05:53.968Z",
+    "end": "2025-11-25T17:06:13.162Z",
+    "duration": 19194,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0ae25acc-c2c1-446d-a95b-e97b0c2ed2c3",
+      "title": "",
+      "fullFile": "cypress\\e2e\\loginfacebook\\loginfacebook.cy.js",
+      "file": "cypress\\e2e\\loginfacebook\\loginfacebook.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2bee78b2-4eb3-4afa-ae09-683fe7849301",
+          "title": "Login Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should log in successfully",
+              "fullTitle": "Login Test should log in successfully",
+              "timedOut": null,
+              "duration": 14830,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//opene the website\ncy.visit(\"https://www.amazon.in/\");\ncy.wait(2000);\n//click o0n the Contact page\ncy.get(\".nav-a[href='/deals?ref_=nav_cs_gb']\").click();\ncy.wait(2000);\n//verify the contact page\n//cy.get(\".page-heading\").should('be.visible');\n//cy.get()",
+              "err": {},
+              "uuid": "0ce0dc79-ae5d-4ee6-ad02-74f9b5bbd416",
+              "parentUUID": "2bee78b2-4eb3-4afa-ae09-683fe7849301",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0ce0dc79-ae5d-4ee6-ad02-74f9b5bbd416"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 14830,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.3.2"
+    }
+  }
+}

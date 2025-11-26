@@ -1,4 +1,4 @@
-//test case for login functionality
+//test case for login functionality...
 describe('Login Test', () => {
     it('should log in successfully', () => {
         //opene the website
@@ -10,5 +10,9 @@ describe('Login Test', () => {
         //verify the contact page
         //cy.get(".page-heading").should('be.visible');
         //cy.get()
+    })
+    it('go to the google', () => {
+        cy.visit("https://www.google.com/");
+        cy.wait(2000);
     })
 })
